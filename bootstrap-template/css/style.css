@@ -1,0 +1,321 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #D0D0D0;
+}
+
+
+.navbar {
+    height: 10px;
+    background-color: #2C3A3D;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 50px;
+  }
+
+.glyphicon {
+    margin: 5px;
+    color: #FFC984;
+    padding-bottom: 10px;
+    
+ }
+ 
+.navbar-brand{
+    font-size: 28px;
+padding-bottom: 10px;
+
+}
+
+
+.welcome-message h1 {
+ color: white;
+ font-size: 60px;
+}
+
+.welcome-message{
+  position: relative;
+  padding: 80px 30px 45px 30px;
+  min-height: 500px;
+  background-image: url("../images/waterfall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0 32px;
+  
+  @include bp-small{
+    padding: 30px 10px 20px 10px;
+    min-height: 200px;
+  }
+}
+
+.jumbotron {
+    background-image: url('../images/image-1.jpg');
+    height: 600px;
+
+}
+
+
+
+
+h1,h3 {
+
+	font-family: "Roboto';
+	text-transform: uppercase;
+	color:  #2C3A3D;
+	font-weight: bolder; 
+}
+
+h2{
+    color: white;
+	font-weight: bolder; 
+}
+
+
+h4 {
+    display: block;
+    position: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#content {
+    color: #2C3A3D;
+    padding-bottom: 60px;
+    padding-top: 15px;
+    font-family: roboto;
+    text-align: justify;
+}
+
+
+.placeholder {
+    position: center;
+}
+
+/****************index cards**************/
+
+.thumbnails {
+    text-align: center;
+    
+}
+
+.i
+
+a img{
+    border:solid;
+    border-color: #ffd9a8;
+    padding-left: 0px;
+    display: inline-block;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+ul.thumbnails{
+    margin:auto;
+    padding:0;
+    width:800px;
+    float:left;
+    clear:both;
+    list-style:none;
+    border:1px solid #000;
+
+
+    
+ 
+
+}
+ul.thumbnails li{
+    float:left;
+    width:52px;
+    height:52px;
+    margin:auto;
+    display: block;
+
+}
+ul.thumbnails a{
+    float:left;
+    width:50px;
+    height:50px;
+    border:1px solid #000;
+    text-decoration:none;
+    display: inline-block;
+    text-align: center;
+
+    
+}
+ul.thumbnails a:visited{border:1px solid blue}
+ul.thumbnails a:hover{border:1px solid red}
+ul.thumbnails a:active{border:1px solid green}
+
+
+
+
+/*******************CONTACT US*************/
+
+.form-horizontal {
+ width: 700px;
+     padding-right: 105px;
+     color: #AF9164;
+    background-color: #D0D0D0;
+
+}
+
+
+/*.post {*/
+/*    text-align: center;*/
+/*     display: block;*/
+     
+/*}*/
+
+
+
+
+.btn {
+ background-color: #FFC984;
+ color: #2C3A3D ;
+ font-size: 10px;
+}
+
+.form-group {
+    margin:0;
+
+
+.well well-sm {
+ text-align: center;
+ display: block;
+ margin: 0 auto;
+}
+    
+    
+
+
+
+}
+
+
+/*****************EXPLORE PAGE*******************/
+
+.row pitch-section {
+  height: 200px;
+  width: 200px;
+}
+
+
+.text-center amenities-title  {
+    color: white;
+}
+
+h3 {
+    color: #0090C1;
+}
+
+
+.pitch-section img {
+	/*width: 100%;*/
+	width: 600px;
+	height: 300px;
+	display: block;
+	float:flex;
+ border-radius: 100px;
+ -webkit-border-radius: 190px;
+ -moz-border-radius: 100px;
+
+ 
+}
+
+
+
+.carousel-img {
+    width:100%;
+}
+
+
+.panel-title {
+    color: #8BD7D2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    float: left;
+}
+    
+.row img{
+    width: 300px;
+    height: 300px;
+}
+
+.row caption{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+/*****************FOOO PAGE*******************/
+
+.thumbnail {
+    background-color: #2C3A3D;
+    padding-top: 45px;
+}
+
+.caption p {
+    color: #ffd9a8;
+    font-size: 14px;
+}
+
+/*****************CITY PAGE***************/
+
+.carousel-caption {
+    color: #FFC984;
+}
+
+.panel-heading {
+ color: #FFC984;
+}
+
+.panel-title {
+    color: #FFC984;
+}
+
+
+#accordion {
+   color: #2C3A3D;
+   font-size: 15px;
+}
+
+#headingOne {
+    background-color: #2C3A3D;
+}
+
+#headingTwo {
+    background-color: #2C3A3D;
+}
+
+#headingThree {
+    background-color: #2C3A3D;
+}
+
+
+
+
+#collapseOne {
+    background-color: #D0D0D0;
+}
+
+#collapseTwo {
+    background-color: #D0D0D0;
+}
+
+#collapseThree {
+    background-color: #D0D0D0;
+}
+
+
+
+
+
+
+
+
